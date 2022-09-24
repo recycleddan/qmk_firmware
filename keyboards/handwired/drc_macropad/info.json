@@ -1,0 +1,35 @@
+{
+    "manufacturer": "Dan Carter",
+    "keyboard_name": "handwired/drc_macropad",
+    "maintainer": "recycleddan",
+    "bootloader": "atmel-dfu",
+    "processor": "atmega32u4",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0x1975"
+    },
+    "matrix_pins": {
+        "cols": ["B1", "B3", "B2", "B6", "B5", "B4"],
+        "rows": ["D1"]
+    },
+    "diode_direction": "ROW2COL",
+    "encoder": {
+        "rotary": [
+            { "pin_a": "D7", "pin_b": "C6", "resolution": 4 }
+        ]
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label": "Stop", "x": 0, "y": 0},
+                {"label": "Previous", "x": 1, "y": 0},
+                {"label": "Next", "x": 2, "y": 0},
+                {"label": "Play/Pause", "x": 3, "y": 0},
+                {"label": "Switch Output", "x": 4, "y": 0},
+                {"label": "Mute", "x": 5, "y": 0}
+            ]
+        }
+    }
+}
